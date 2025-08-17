@@ -1,86 +1,27 @@
 📊 Financial Data Analysis
-📌 Overview
 
-This project analyzes financial loan data to identify key patterns, KPIs, and borrower trends. Using Python and Jupyter Notebook, the project applies data cleaning, exploratory analysis, and visualization to extract insights on lending behaviors.
+This project explores financial loan data using Python & Jupyter Notebook. The aim is to analyze KPIs, classify loans, and visualize trends for better insights.
 
-🛠️ Tools & Libraries
+🔧 Tech Stack
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+Python (Pandas, NumPy, Matplotlib, Seaborn, Plotly)
 
 Jupyter Notebook
 
-🎯 Key Objectives
+✨ Key Highlights
 
-Analyze loan performance and repayment patterns.
+Loan KPIs: Applications, Funded Amounts, Amount Received, Interest Rate, DTI
 
-Define and calculate Key Performance Indicators (KPIs).
+Good Loan vs. Bad Loan classification
 
-Visualize financial and borrower-related trends.
+Visualizations: Monthly trends, regional analysis, loan purpose, home ownership, etc.
 
-Classify loans into Good vs. Bad categories.
+End-to-end workflow with clear explanations
 
-📈 KPIs Tracked
+📂 Files
 
-Total Loan Applications (+ Month-to-Date)
+Finance data analysis.ipynb → Jupyter Notebook
 
-Total Funded Amount (+ Month-to-Date)
+financial_loan.xlsx → Dataset
 
-Total Amount Received (+ Month-to-Date)
-
-Average Interest Rate
-
-Average Debt-to-Income (DTI) Ratio
-
-Good Loan Metrics
-
-Good Loan Application %
-
-Good Loan Applications Count
-
-Good Loan Funded Amount
-
-Good Loan Total Received Amount
-
-Bad Loan Metrics
-
-Bad Loan Application %
-
-Bad Loan Applications Count
-
-Bad Loan Funded Amount
-
-Bad Loan Total Received Amount
-
-📊 Visualizations
-
-Monthly Trends by Issue Date → Seasonality & long-term lending activity
-
-Regional Analysis by State → Geographic loan distribution
-
-Loan Term Analysis (Donut Chart) → Loan length comparison
-
-Employment Length Analysis → Borrower employment trends vs. loan performance
-
-Loan Purpose Breakdown (Bar Chart) → Why borrowers seek loans
-
-Home Ownership Analysis (Tree/Heat Map) → Impact of home ownership on loan disbursement
-
-📂 Project Structure
-Financial-Data-Analysis/
-│
-├── finance data analysis.ipynb  # Jupyter Notebook with analysis
-├── requirements.txt             # Dependencies
-├── financial_loan.xlsx          # Dataset
-└── README.md                    # Project documentation
-
-📌 Dataset
-
-The dataset includes borrower and loan details such as:
-
-Borrower demographics (state, employment length, home ownership)
-
-Loan details (amount, term, interest rate, installment, purpose, grade)
-
-Payment history (issue date, last payment date, loan status, amount received)
-
-Note: Dataset used is for educational purposes.
+requirements.txt → Dependencies
